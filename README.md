@@ -18,6 +18,10 @@ Expected:
     I20140923-12:50:47.418(2)? [{"_id":"hQAsEoBWiAtoXyQ8D","array":[]}]}]
     => Started your app.
 
+### Pull request ###
+
+https://github.com/meteor/meteor/pull/2671
+
 ### Issue ###
 The `$each` is inserted instead of executed. Occurs when new field is created during upsert with `$addToSet`.
 
