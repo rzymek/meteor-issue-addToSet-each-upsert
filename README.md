@@ -1,4 +1,4 @@
-##Issue: ##
+##Issue: `$addToSet: $each` new field creation ##
 Executing an upsert:
 
     { $addToSet: { array: { $each: [] } } }
@@ -9,6 +9,7 @@ instead of
 
     [{"_id":"wKGTDDytyxBnWA2sy","array":[]}]
 
+## Raw MongoDB ##
 Executing on raw mongo:
 
     db.meteor.addToSet.update({},{ $addToSet: { array: { $each: [] } } }, {upsert:true})
